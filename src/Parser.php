@@ -1,6 +1,6 @@
 <?php declare( strict_types = 1);
-include_once('TaintedVariables.php');
-require_once('TaintSource.php');
+//include_once('TaintedVariables.php');
+//require_once('TaintSource.php');
 
 // report on errors, except notices
 error_reporting( E_ALL & ~E_NOTICE);
