@@ -3,8 +3,7 @@
 // needed for the flag constants -- i.e., essentially get_flag_info()
 // used in format_flags()
 require_once 'util.php';
-include_once('TaintedVariables.php');
-include_once('TaintSource.php');
+
 
 /**
  * This abstract class defines the various methods implemented by its
